@@ -25,7 +25,11 @@ LABORATÓRIO DE INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO
 
 ## Resumo
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Os sistemas de controle de acesso têm transformado a segurança em ambientes de missão crítica ao integrar tecnologias de ponta que asseguram alta confiabilidade, rastreabilidade e mitigação de riscos. Soluções modernas, como fechaduras eletrônicas inteligentes, incorporam mecanismos avançados de autenticação, incluindo reconhecimento facial, biometria e leitura de credenciais por meio de tags RFID/NFC, proporcionando um controle rigoroso e seguro do fluxo de pessoas.
+
+No entanto, a implementação dessas soluções em ambientes empresariais de médio e grande porte pode ser financeiramente inviável, dificultando sua adoção em larga escala. Para contornar essa limitação, desenvolvemos um protótipo MVP de um sistema de fechadura eletrônica baseado em tecnologias de baixo custo. Esse modelo foi construído utilizando o microcontrolador ESP32, em conjunto com atuadores e sensores, permitindo a validação e materialização da nossa ideia.
+
+
 
 # Código (do arduino ou esp32)
 
