@@ -4,8 +4,8 @@
 `CAMPUS/UNIDADE`
 Pontifícia Universidade Católica de Minas Gerais - Coração Eucarístico
 
-<p>`CURSO`: Engenharia da Computação<p>
-<p>`SEMESTRE`: Primeiro período<p>
+`CURSO`: Engenharia da Computação
+`SEMESTRE`: Primeiro período
 `DISCIPLINA`: LABORATÓRIO DE INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO
 
 ## Integrantes
