@@ -1,17 +1,20 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A segurança em ambientes de missão crítica tem evoluído com a adoção de tecnologias modernas de controle de acesso, como fechaduras eletrônicas com autenticação via reconhecimento facial, biometria e RFID/NFC. No entanto, os altos custos dessas soluções dificultam sua aplicação em larga escala, especialmente em empresas de médio e grande porte.
+
+Este projeto propõe o desenvolvimento de um protótipo MVP (Produto Mínimo Viável) de fechadura eletrônica inteligente, utilizando o microcontrolador ESP32 e componentes de baixo custo. O objetivo é validar a viabilidade técnica e funcional de um sistema de controle de acesso acessível, escalável e multifuncional.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que o seu projeto deve  resolver. Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. 
+A principal problemática que o projeto propõe a resolver é o alto custo inicial de implementação de sistemas de controle de acesso a ambientes de missão crítica, principalmente em ambientes corporativos de médio e grande porte.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um projeto para solucionar o problema apresentado acima. 
+Desenvolver um sistema de controle de acesso de baixo custo inicial de implementação usando sistemas embarcados.
+Desenvolver um sistema embarcado usando ESP-32 para controlar uma fechadura de modo a implementar um sistema de controle de acesso multifuncional com funções como reconhecimento fácil, biometria, tags NFC/RFID e senha.
+Desenvolver uma interface de monitoramento e gerenciamento remoto do sistema.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão o projeto. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, etc.
+Empresas de médio e grande porte que almejam implementar sistemas de controle de acesso por meio de fechaduras eletrônicas digitais, com investimento inicial otimizado, podem se beneficiar de uma solução escalável, que possibilite a expansão gradual e simplificada da infraestrutura conforme o crescimento das demandas operacionais.
