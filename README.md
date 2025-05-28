@@ -1,25 +1,26 @@
 # TÍTULO DO PROJETO
 <h1>Smart Door</h1>
 `CAMPUS/UNIDADE`
+Pontifícia Universidade Católica de Minas Gerais - Coração Eucarístico
 
 `CURSO`
-
+Engenharia da Computação
 `SEMESTRE`
-
+Primeiro período
 `DISCIPLINA`
-
+LABORATÓRIO DE INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO
 
 ## Integrantes
 
 * Claudio Francisco dos Santos Júnior
-* Douglas Augusto Bomfim de Mello
-* Gabriel
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Douglas Augusto Bomfim de Mello 
+* Gabriel Campos Amaral Ribeiro	 
+* Samuel Filipe Lara Fernandes
+* Lucas Emanuel Simão Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+*  Marta Dias Moreira Noronha
 
 ## Resumo
 
