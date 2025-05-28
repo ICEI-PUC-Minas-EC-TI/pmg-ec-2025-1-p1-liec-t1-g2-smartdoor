@@ -1,12 +1,10 @@
 # SMART DOOR
 
-`CAMPUS/UNIDADE`
-Pontifícia Universidade Católica de Minas Gerais - Coração Eucarístico
 
-`CURSO`: Engenharia da Computação
-`SEMESTRE`: Primeiro período
-`DISCIPLINA`: LABORATÓRIO DE INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO
-
+**Campus/Unidade:** Pontifícia Universidade Católica de Minas Gerais – Coração Eucarístico  
+**Curso:** Engenharia da Computação  
+**Semestre:** Primeiro período  
+**Disciplina:** Laboratório de Introdução à Engenharia de Computação
 ## Integrantes
 
 * Claudio Francisco dos Santos Júnior
