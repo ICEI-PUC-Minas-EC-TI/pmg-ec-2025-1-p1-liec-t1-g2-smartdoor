@@ -23,11 +23,17 @@
 Este projeto é um protótipo de sistema de controle de acesso inteligente, desenvolvido com foco em baixo custo e alta flexibilidade. Utiliza o ESP32 como microcontrolador principal, integrando:
 
 Leitor RFID (MFRC522) para autenticação por cartão ou chaveiro;
+
 Servo motor para abertura/fechamento da porta;
+
 Sensor capacitivo como alternativa de acionamento;
+
 Módulo Bluetooth para controle remoto via celular;
+
 Display LCD I2C para interação com o usuário;
-LEDs e buzzer para feedback visual e sonoro.
+
+LEDs e buzzer para feedback visual e sonoro;
+
 
 Ideal para aplicações didáticas ou testes em ambientes com recursos limitados, o projeto demonstra como tecnologias acessíveis podem ser aplicadas em soluções reais de automação e segurança.
 
