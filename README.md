@@ -8,7 +8,8 @@
 `DISCIPLINA`: Laboratório de Introdução à Engenharia de Computação (LIEC)
 
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40" title="C++"/></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bluetooth/bluetooth-original.svg" width="40" height="40" title="Bluetooth"/></code>
+<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" title="Arduino"/></code>
+
 
 ## Integrantes
 
