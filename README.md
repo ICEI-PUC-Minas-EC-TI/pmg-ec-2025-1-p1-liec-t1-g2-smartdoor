@@ -9,7 +9,7 @@
 
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40" title="C++"/></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" title="Arduino"/></code>
-![MIT App Inventor](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MIT_App_Inventor_logo.png/600px-MIT_App_Inventor_logo.png)
+<code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MIT_App_Inventor_logo.png/600px-MIT_App_Inventor_logo.png" width="40" height="40" title="MIT App Inventor"/></code>
 
 
 
