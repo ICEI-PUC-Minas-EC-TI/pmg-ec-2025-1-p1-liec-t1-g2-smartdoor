@@ -1,5 +1,5 @@
-# 🔒 SMART DOOR
-## Sistema de Fechadura Eletrônica com ESP32
+# 🔒 SMART DOOR - Sistema de Fechadura Eletrônica com ESP32
+
 
 
 `CAMPUS/UNIDADE`: PUC MINAS – Coração Eucarístico  
