@@ -1,4 +1,5 @@
-# SMART DOOR
+# 🔒 SMART DOOR
+# Sistema de Fechadura Eletrônica com ESP32
 
 
 `CAMPUS/UNIDADE`: PUC MINAS – Coração Eucarístico  
@@ -19,8 +20,6 @@
 *  Marta Dias Moreira Noronha
 
 ## Resumo
-
-# 🔒 Sistema de Fechadura Eletrônica com ESP32
 
 Este projeto é um **protótipo de sistema de controle de acesso inteligente**, desenvolvido com foco em **baixo custo** e **alta flexibilidade**. Utiliza o **ESP32** como microcontrolador principal, integrando:
 
