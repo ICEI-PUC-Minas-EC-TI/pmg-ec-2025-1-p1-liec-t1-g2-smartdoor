@@ -7,13 +7,6 @@
 `SEMESTRE`: Primeiro período  
 `DISCIPLINA`: Laboratório de Introdução à Engenharia de Computação (LIEC)
 
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40" title="C++"/></code>
-<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" title="Arduino"/></code>
-<code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MIT_App_Inventor_logo.png/600px-MIT_App_Inventor_logo.png" width="40" height="40" title="MIT App Inventor"/></code>
-
-
-
-
 ## Integrantes
 
 * Claudio Francisco dos Santos Júnior;
@@ -40,6 +33,10 @@ Este projeto é um **protótipo de sistema de controle de acesso inteligente**, 
 - 🔘 Botão físico (GPIO 15);  
 
 Ideal para **aplicações didáticas** ou **testes em ambientes com recursos limitados**, o projeto demonstra como **tecnologias acessíveis** podem ser aplicadas em soluções reais de **automação e segurança**.
+
+###Tecnologia usadas
+<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40" title="C++"/></code>
+<code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" title="Arduino"/></code>
 
 # Código (do arduino ou esp32)
 
