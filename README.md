@@ -26,7 +26,7 @@ Este projeto é um **protótipo de sistema de controle de acesso inteligente**, 
 
 - 🔑 **Leitor RFID (MFRC522)** para autenticação por cartão ou chaveiro  
 - ⚙️ **Servo motor** para abertura/fechamento da porta  
-- ✋ **Sensor capacitivo** como alternativa de acionamento  
+- ✋ **Sensor capacitivo(sensor de toque)** como alternativa de acionamento  
 - 📱 **Módulo Bluetooth** para controle remoto via celular  
 - 🖥️ **Display LCD I2C** para interação com o usuário  
 - 🔔 **LEDs e buzzer** para feedback visual e sonoro  
