@@ -34,7 +34,7 @@ Este projeto é um **protótipo de sistema de controle de acesso inteligente**, 
 
 Ideal para **aplicações didáticas** ou **testes em ambientes com recursos limitados**, o projeto demonstra como **tecnologias acessíveis** podem ser aplicadas em soluções reais de **automação e segurança**.
 
-### Tecnologias usadas
+## Tecnologias usadas
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40" title="C++"/></code>
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="40" height="40" title="Arduino"/></code>
 
