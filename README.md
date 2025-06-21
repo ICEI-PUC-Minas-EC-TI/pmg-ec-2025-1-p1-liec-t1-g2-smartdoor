@@ -1,10 +1,10 @@
 # SMART DOOR
 
 
-`CAMPUS/UNIDADE`: Pontifícia Universidade Católica de Minas Gerais – Coração Eucarístico  
+`CAMPUS/UNIDADE`: PUC MINAS – Coração Eucarístico  
 `CURSO`: Engenharia da Computação  
 `SEMESTRE`: Primeiro período  
-`DISCIPLINA`: Laboratório de Introdução à Engenharia de Computação
+`DISCIPLINA`: Laboratório de Introdução à Engenharia de Computação (LIEC)
 
 ## Integrantes
 
@@ -20,11 +20,16 @@
 
 ## Resumo
 
-Os sistemas de controle de acesso têm transformado a segurança em ambientes de missão crítica ao integrar tecnologias de ponta que asseguram alta confiabilidade, rastreabilidade e mitigação de riscos. Soluções modernas, como fechaduras eletrônicas inteligentes, incorporam mecanismos avançados de autenticação, incluindo reconhecimento facial, biometria e leitura de credenciais por meio de tags RFID/NFC, proporcionando um controle rigoroso e seguro do fluxo de pessoas.
+Este projeto é um protótipo de sistema de controle de acesso inteligente, desenvolvido com foco em baixo custo e alta flexibilidade. Utiliza o ESP32 como microcontrolador principal, integrando:
 
-No entanto, a implementação dessas soluções em ambientes empresariais de médio e grande porte pode ser financeiramente inviável, dificultando sua adoção em larga escala. Para contornar essa limitação, desenvolvemos um protótipo MVP de um sistema de fechadura eletrônica baseado em tecnologias de baixo custo. Esse modelo foi construído utilizando o microcontrolador ESP32, em conjunto com atuadores e sensores, permitindo a validação e materialização da nossa ideia.
+Leitor RFID (MFRC522) para autenticação por cartão ou chaveiro;
+Servo motor para abertura/fechamento da porta;
+Sensor capacitivo como alternativa de acionamento;
+Módulo Bluetooth para controle remoto via celular;
+Display LCD I2C para interação com o usuário;
+LEDs e buzzer para feedback visual e sonoro.
 
-
+Ideal para aplicações didáticas ou testes em ambientes com recursos limitados, o projeto demonstra como tecnologias acessíveis podem ser aplicadas em soluções reais de automação e segurança.
 
 # Código (do arduino ou esp32)
 
