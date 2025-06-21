@@ -8,11 +8,11 @@
 
 ## Integrantes
 
-* Claudio Francisco dos Santos Júnior
-* Douglas Augusto Bomfim de Mello 
-* Gabriel Campos Amaral Ribeiro	 
-* Samuel Filipe Lara Fernandes
-* Lucas Emanuel Simão Silva
+* Claudio Francisco dos Santos Júnior;
+* Douglas Augusto Bomfim de Mello; 
+* Gabriel Campos Amaral Ribeiro;
+* Samuel Filipe Lara Fernandes;
+* Lucas Emanuel Simão Silva;
 
 ## Orientador
 
@@ -24,14 +24,17 @@
 
 Este projeto é um **protótipo de sistema de controle de acesso inteligente**, desenvolvido com foco em **baixo custo** e **alta flexibilidade**. Utiliza o **ESP32** como microcontrolador principal, integrando:
 
-- 🔑 **Leitor RFID (MFRC522)** para autenticação por cartão ou chaveiro  
-- ⚙️ **Servo motor** para abertura/fechamento da porta  
-- ✋ **Sensor capacitivo(sensor de toque)** como alternativa de acionamento  
-- 📱 **Módulo Bluetooth** para controle remoto via celular  
-- 🖥️ **Display LCD I2C** para interação com o usuário  
-- 🔔 **LEDs e buzzer** para feedback visual e sonoro  
+- 🔑 Leitor RFID MFRC522; 
+- ⚙️ Servo motor SG90;  
+- ✋ Sensor capacitivo (TTP223);  
+- 📱 Bluetooth Serial (embutido no ESP32);  
+- 🖥️ Display LCD 16x2 com módulo I2C (endereço 0x27);  
+- 🔔 LEDs (vermelho e verde);  
+- 🔉 Buzzer ativo;  
+- 🔘 Botão físico (GPIO 15);  
 
 Ideal para **aplicações didáticas** ou **testes em ambientes com recursos limitados**, o projeto demonstra como **tecnologias acessíveis** podem ser aplicadas em soluções reais de **automação e segurança**.
+
 # Código (do arduino ou esp32)
 
 <li><a href="Codigo/README.md"> Código Fonte (.ino)</a></li>
