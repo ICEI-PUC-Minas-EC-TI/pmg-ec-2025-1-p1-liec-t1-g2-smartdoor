@@ -8,7 +8,7 @@ No início, o planejamento foi realizado pelo **Scrum Master (Gabriel Campos)**,
 
 As sprints foram definidas semanalmente conforme a orientação da professora, e a comunicação passou a ser centralizada em um grupo de WhatsApp.
 
-Com a consolidação da ideia, a metodologia foi adaptada para um modelo mais flexível, no qual cada integrante escolheu as tarefas que melhor se adequavam à sua afinidade e disponibilidade. O quadro Kanban do Trello foi mantido para acompanhamento geral somente pelo scrum master,mas menos utilizados pelo restante do grupo.
+Com a consolidação da ideia, a metodologia foi adaptada para um modelo mais flexível, no qual cada integrante escolheu as tarefas que melhor se adequavam à sua afinidade e disponibilidade. O quadro Kanban do Trello foi mantido para acompanhamento geral mas somente pelo Scrum Master, e menos utilizados pelo restante do grupo.
 
 ### Divisão de Papéis
 
