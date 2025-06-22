@@ -101,12 +101,5 @@ Este projeto contou com o auxílio de:
   [https://www.arduino.cc/en/Reference/HomePage](https://www.arduino.cc/en/Reference/HomePage)
 ---
 
-Se precisar de ajuda ou quiser sugerir melhorias, fique à vontade para abrir issues ou pull requests no repositório!
-
----
-
-
----
-
 
 
