@@ -87,5 +87,4 @@ Por enquanto, o app não possui mecanismos avançados de autenticação, tratame
 
 ---
 
----
 
