@@ -1,9 +1,4 @@
-# SMART DOOR - Protótipo de Fechadura Eletrônica com ESP32
-
-**Desenvolvedor:** Gabriel Campos Amaral Ribeiro
-
 ---
-
 ## 📖 Descrição do Projeto
 
 Este é um **protótipo de sistema de controle de acesso** utilizando a placa **ESP32**, desenvolvido para simular o funcionamento de uma fechadura eletrônica.
