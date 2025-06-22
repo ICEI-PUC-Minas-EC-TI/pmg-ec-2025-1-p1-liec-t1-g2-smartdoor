@@ -16,7 +16,7 @@ Com a consolidação da ideia, a metodologia foi adaptada para um modelo mais fl
 - **Desenvolvimento do Hardware:** Cláudio — contribuiu com cerca de 10% da montagem do hardware.
 - **Desenvolvimento do Aplicativo:** Lucas — responsável por cerca de 50% do desenvolvimento do aplicativo.
 
-As apresentações dos protótipos foram conduzidas por Gabriel em conjunto com os colegas envolvidos nas respectivas tarefas.
+As apresentações dos protótipos foram conduzidas por Gabriel Campos (Scrum Master) e, na sua ausência, pelos outros integrantes do grupo em conjunto com os colegas envolvidos nas respectivas tarefas.
 
 ### Processo
 
