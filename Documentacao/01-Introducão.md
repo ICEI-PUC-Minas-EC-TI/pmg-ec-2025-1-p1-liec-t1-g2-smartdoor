@@ -4,8 +4,7 @@ A segurança em ambientes físicos vem evoluindo com a integração de tecnologi
 
 Este projeto apresenta o desenvolvimento de um **protótipo funcional (MVP - Produto Mínimo Viável)** de uma **fechadura eletrônica inteligente** baseada no microcontrolador **ESP32**. Utilizando componentes de baixo custo e bibliotecas open source, o protótipo busca simular um sistema de controle de acesso que seja acessível, escalável e multifuncional — voltado principalmente para fins educacionais, testes em ambientes simples e validação técnica de ideias.
 
-Embora ainda em fase inicial, o projeto demonstra como tecnologias acessíveis podem ser combinadas para simular aplicações reais de automação e controle de acesso, servindo como base para o desenvolvimento de soluções mais robustas no futuro.  
-**A ideia é que, conforme os conhecimentos forem sendo adquiridos ao longo do curso, este protótipo seja gradualmente aprimorado e evoluído até se tornar uma solução com potencial de aplicação profissional.**
+Embora ainda em fase inicial, o projeto demonstra como tecnologias acessíveis podem ser combinadas para simular aplicações reais de automação e controle de acesso, servindo como base para o desenvolvimento de soluções mais robustas no futuro.  A ideia é que, conforme os conhecimentos forem sendo adquiridos ao longo do curso, este protótipo seja gradualmente aprimorado e evoluído até se tornar uma solução com potencial de aplicação profissional.
 
 ---
 
