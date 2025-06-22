@@ -1,26 +1,40 @@
 ## Gerenciamento de Projeto
 
-
 # Metodologia
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A equipe utilizou uma combinação das metodologias **Scrum** e **Kanban** para organizar e desenvolver o projeto.
+
+No início, o planejamento foi realizado pelo **Scrum Master (Gabriel Campos)**, que estruturou o quadro de tarefas no Trello, organizou os objetivos iniciais e coordenou as atividades.
+
+As sprints foram definidas semanalmente conforme a orientação da professora, e a comunicação passou a ser centralizada em um grupo de WhatsApp.
+
+Com a consolidação da ideia, a metodologia foi adaptada para um modelo mais flexível, no qual cada integrante escolheu as tarefas que melhor se adequavam à sua afinidade e disponibilidade. O quadro Kanban do Trello foi mantido para acompanhamento geral.
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+- **Scrum Master:** Gabriel Campos — responsável pelo planejamento, organização do Trello, 100% do código do sistema, cerca de 80% da documentação, 50% do desenvolvimento do aplicativo e suporte geral.
+- **Desenvolvimento do Hardware:** Cláudio — contribuiu com cerca de 10% da montagem do hardware.
+- **Desenvolvimento do Aplicativo:** Lucas — responsável por cerca de 50% do desenvolvimento do aplicativo.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Aluno 1;
-- Equipe de Desenvolvimento: Aluno 1, Aluno 2, Aluno 3;
-
+As apresentações dos protótipos foram conduzidas por Gabriel em conjunto com os colegas envolvidos nas respectivas tarefas.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. Cole aqui um print do quadro Kanban utilizado pelo grupo.
- 
+- Organização do trabalho em **sprints semanais**.
+- Planejamento inicial estruturado em Trello, utilizando uma abordagem híbrida entre Scrum e Kanban.
+- Execução das tarefas por afinidade e disponibilidade dos integrantes.
+- Uso de quadro Kanban real, com colunas como "A Fazer", "Em Andamento" e "Concluído".
+- Comunicação e alinhamento feitos principalmente via grupo de WhatsApp.
+
+📌 *Print do quadro Kanban no Trello será anexado na pasta de documentação.*
 
 ### Ferramentas
 
 As ferramentas utilizadas no projeto foram:
 
-- Liste aqui as ferramentas utilizadas para desenvolvimento do projeto (como por exemplo: Arduino IDE, APP Inventor, trello e outros). Obs: não é para listar aqui os componentes utilizados.
+- Arduino IDE (programação e upload do código);
+- Git e GitHub (controle de versão);
+- Trello (organização e gerenciamento das tarefas via Kanban);
+- WhatsApp (comunicação entre os membros da equipe);
+- Markdown (.md) para documentação;
+- Bluetooth Serial Terminal (app Android para teste do controle via Bluetooth).
