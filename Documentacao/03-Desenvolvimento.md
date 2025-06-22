@@ -56,43 +56,36 @@ Por enquanto, o app não possui mecanismos avançados de autenticação, tratame
 
 #### Montagem
 
-A montagem foi feita em protoboard, facilitando testes e ajustes.
-
-Devido a problemas no teclado e limitações de portas, o teclado não foi utilizado.
-
-A trava elétrica foi substituída por um servo motor devido à incompatibilidade de tensão com o relé.
-
-A alimentação principal foi por USB do computador, com bateria disponível para uso externo.
-
-Houve dificuldades para padronizar os fios, devido à falta de cabos nas cores e tamanhos adequados.
+- A montagem foi realizada em protoboard para facilitar testes e ajustes durante o desenvolvimento.
+- O teclado físico não foi utilizado devido a problemas no componente e limitações do número de portas disponíveis no ESP32.
+- A trava elétrica original foi substituída por um servo motor, pois houve incompatibilidade da trava elétrica com o relé devido à tensão.
+- A alimentação do sistema ocorreu principalmente via USB do computador, com bateria disponível para uso externo.
+- Durante a montagem, houve dificuldades em padronizar os fios, causadas pela falta de cabos com cores e tamanhos adequados.
+- Para futuras melhorias, recomenda-se o uso de uma placa de circuito impresso para aprimorar a organização e a estética do projeto.
 
 #### Desenvolvimento do Código
 
-O código do ESP32 foi desenvolvido na Arduino IDE versão 2.3.6.
-
-Foram utilizadas as bibliotecas ESP32Servo, MFRC522, LiquidCrystal_I2C e BluetoothSerial.
-
-Inicialmente houve desafios para identificar as bibliotecas corretas para cada componente.
-
-O código está estruturado em funções e procedimentos para garantir organização e legibilidade.
-
-O desenvolvimento do código foi mais simples do que o esperado.
+- O código do ESP32 foi desenvolvido utilizando a Arduino IDE versão 2.3.6.
+- Foram utilizadas as bibliotecas ESP32Servo, MFRC522, LiquidCrystal_I2C e BluetoothSerial para controlar os componentes.
+- Inicialmente houve desafios para encontrar as bibliotecas corretas para cada componente, mas isso foi superado.
+- O código foi estruturado em funções e procedimentos para manter a organização e facilitar a legibilidade.
+- O desenvolvimento foi mais simples do que o esperado, permitindo a rápida implementação das funcionalidades básicas.
 
 ---
 
 ### Comunicação entre App e Hardware
 
-A comunicação entre o aplicativo Android e o ESP32 ocorre via Bluetooth Serial clássico.
+- A comunicação entre o aplicativo Android e o ESP32 é realizada via Bluetooth Serial clássico.
+- O app envia comandos simples:
+  - `'1'` para abrir a porta;
+  - `'2'` para fechar a porta.
+- O ESP32 interpreta esses comandos e controla o servo motor, buzzer, LEDs e display LCD conforme o comando recebido.
+- O ESP32 também envia mensagens de status para o app, possibilitando a atualização do indicador visual do estado da porta.
+- O protocolo de comunicação é simples e direto, sem mecanismos avançados de segurança ou controle de erros.
+- Durante os testes, não foram observadas instabilidades na comunicação.
+- O app utilizado para simulação foi desenvolvido no MIT App Inventor e é exclusivo para dispositivos Android.
 
-O app envia comandos de texto simples (`'1'` para abrir e `'2'` para fechar).
-
-O ESP32 recebe os comandos, controla o servo, buzzer, LEDs e display, e envia de volta o status da porta para o app.
-
-O protocolo é direto e sem complexidade.
-
-Não foram observadas instabilidades na comunicação durante os testes.
-
-O app atual para simulação é exclusivo para Android, desenvolvido no MIT App Inventor.
+---
 
 ---
 
