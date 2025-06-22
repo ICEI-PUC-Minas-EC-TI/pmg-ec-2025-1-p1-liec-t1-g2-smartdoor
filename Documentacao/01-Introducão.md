@@ -2,60 +2,52 @@
 
 A segurança em ambientes físicos vem evoluindo com a integração de tecnologias modernas de controle de acesso, como fechaduras eletrônicas que utilizam autenticação por reconhecimento facial, biometria, cartões RFID/NFC e gerenciamento remoto. No entanto, o alto custo dessas soluções e a complexidade da infraestrutura necessária tornam sua adoção inviável para muitas empresas, principalmente as de médio porte que buscam alternativas mais acessíveis.
 
-Este projeto apresenta o desenvolvimento de um **protótipo funcional (MVP - Produto Mínimo Viável)** de uma **fechadura eletrônica inteligente** baseada no microcontrolador **ESP32**. Utilizando componentes de baixo custo e bibliotecas open source, o protótipo busca simular um sistema de controle de acesso que seja acessível, escalável e multifuncional — voltado principalmente para fins educacionais, testes em ambientes simples e validação técnica de ideias.
+Este projeto apresenta o desenvolvimento de um **protótipo funcional (MVP - Produto Mínimo Viável)** de uma **fechadura eletrônica inteligente** baseada no microcontrolador **ESP32**. Utilizando componentes de baixo custo e bibliotecas open source, o sistema simula um controle de acesso acessível e multifuncional — com foco em fins educacionais, testes em ambientes simples e validação técnica de ideias.
 
-Embora ainda em fase inicial, o projeto demonstra como tecnologias acessíveis podem ser combinadas para simular aplicações reais de automação e controle de acesso, servindo como base para o desenvolvimento de soluções mais robustas no futuro.  A ideia é que, conforme os conhecimentos forem sendo adquiridos ao longo do curso, este protótipo seja gradualmente aprimorado e evoluído até se tornar uma solução com potencial de aplicação profissional.
+A proposta é demonstrar, de forma prática, como tecnologias acessíveis podem ser aplicadas em automação e controle de acesso, servindo como base para aprimoramentos futuros conforme o avanço do conhecimento ao longo do curso.
 
 ---
 
 ## 🧩 Problema
 
-Sistemas de controle de acesso modernos, quando projetados para ambientes críticos, apresentam **alto custo de implementação inicial**, especialmente quando envolvem múltiplos pontos de entrada e autenticação por biometria, reconhecimento facial ou sistemas remotos integrados. Isso dificulta a adoção em larga escala, principalmente por empresas de médio porte, instituições educacionais e residências que buscam maior segurança com menor investimento.
+Soluções profissionais de controle de acesso apresentam **alto custo inicial e complexidade**, o que dificulta sua adoção em residências, instituições de ensino ou pequenas empresas. Este projeto busca oferecer uma alternativa de **baixa complexidade e custo reduzido**, ideal para estudo e aplicação em ambientes com menor demanda de segurança.
 
 ---
 
 ## 🎯 Objetivos
 
-- **Desenvolver um protótipo funcional de controle de acesso** com **baixo custo de implementação**, utilizando o ESP32 e sensores acessíveis.
-- **Simular múltiplas formas de autenticação**, como:
+- **Desenvolver um protótipo funcional** de controle de acesso usando ESP32 e sensores acessíveis.
+- **Integrar diferentes formas de autenticação**, como:
   - Cartões ou chaveiros RFID/NFC.
-  - Sensor capacitivo (como alternativa simples e interativa).
-  - Controle remoto via Bluetooth.
-  - Entrada física via botão.
-- Exibir mensagens informativas por **display LCD I2C**, com alertas visuais e sonoros.
-- Garantir **fechamento automático e feedback ao usuário**.
-- Servir como base para **experimentação e aprimoramento gradual**, com foco nas seguintes melhorias futuras:
-  - **Desenvolvimento de um aplicativo Android mais completo** para controle remoto e monitoramento.
-  - **Criação de uma interface web** para gerenciamento do sistema e visualização de acessos.
-  - **Integração com um banco de dados**, para registro de eventos, autenticações e configurações.
-  - **Melhorias em autenticação segura**, como uso de senhas, biometria ou criptografia de dados.
+  - Sensor capacitivo.
+  - Comando remoto via Bluetooth.
+  - Botão físico de saída.
+- Exibir mensagens no **display LCD I2C**, com **feedback visual (LEDs)** e **sonoro (buzzer)**.
+- Simular um **fluxo completo de abertura e fechamento da porta**, com tempo de espera e mensagens ao usuário.
+- Estabelecer a base para melhorias futuras.
 
 ---
 
 ## 👥 Público-Alvo
 
-O projeto é voltado para:
-
-- **Estudantes e desenvolvedores iniciantes**, interessados em aprender na prática sobre sistemas embarcados, controle de acesso, automação e integração de sensores.
-- **Instituições de ensino técnico ou superior**, que desejam demonstrar de forma prática conceitos de eletrônica aplicada, IoT e segurança.
-- **Empresas ou indivíduos que buscam simular ou validar soluções de controle de acesso**, antes de investir em tecnologias mais robustas.
-- **Residências ou escritórios com necessidade básica de controle de entrada**, onde o protótipo já pode ser aplicado com eficiência.
+- **Estudantes e iniciantes** em eletrônica, IoT ou sistemas embarcados.
+- **Instituições de ensino** que desejam aplicar práticas reais em sala de aula.
+- **Entusiastas de automação residencial** que buscam um ponto de partida para projetos personalizados.
+- **Ambientes com baixo nível de segurança**, como quartos, escritórios pessoais ou laboratórios de estudo.
 
 ---
 
-## ⚠️ Observação Importante
+## ⚠️ Considerações Finais
 
-Este projeto **não é um produto final pronto para uso profissional**, mas sim um **protótipo educacional**, com foco em aprendizado, experimentação e testes.  
-Funciona bem para ambientes simples, como portas de quarto ou espaços com baixo nível de segurança.
+Este projeto é um **protótipo educacional**, ideal para aprendizado prático e testes em ambientes com baixo nível de risco.  
 
-Para aplicações mais exigentes — como controle de acesso em ambientes sigilosos, corporativos ou industriais — será necessário o aprimoramento do sistema em aspectos como:
+Ainda não está pronto para aplicações profissionais ou ambientes críticos. Para isso, serão necessários aprimoramentos em:
 
-- Autenticação e criptografia seguras.
-- Estrutura física reforçada e confiável.
-- Aplicativo Android mais completo e funcional.
-- Interface web com monitoramento e gerenciamento em tempo real.
-- Integração com banco de dados para registros, permissões e auditorias.
+- Segurança da autenticação (criptografia, senha, biometria).
+- Interface remota (web e mobile).
+- Armazenamento e gerenciamento de dados (banco de dados).
+- Robusteza física e confiabilidade do hardware.
 
-**A ideia é transformar este projeto, aos poucos, em uma solução com características profissionais, à medida que novas habilidades forem desenvolvidas ao longo do curso.**
+**A ideia central é evoluir este protótipo gradualmente até se tornar uma solução profissional**, conforme os conhecimentos forem sendo adquiridos ao longo do curso.
 
 ---
