@@ -21,7 +21,9 @@ A seguir, são listadas sugestões de melhorias e funcionalidades que poderão s
 - ✅ Integração com **assistentes virtuais** (como Alexa ou Google Home) para controle por comando de voz.
 - ✅ Monitoramento via **notificações por e-mail ou aplicativo** em caso de acesso negado ou tentativa suspeita.
 
-Essas melhorias serão desenvolvidas **progressivamente** pelo **Scrum Master (Gabriel Campos)**, ao longo dos próximos semestres, à medida que for adquirindo **mais conhecimento técnico**, experiência prática e **tempo disponível** para aprimorar o projeto.
+Essas melhorias serão desenvolvidas progressivamente pelo Scrum Master(Gabriel), à medida que forem adquiridos mais conhecimentos técnicos e experiência ao longo do curso de Engenharia da Computação.
+
+Há a intenção de transformar este protótipo em um sistema real de controle de acesso, com capacidade de uso prático, seguro e confiável, aplicável desde ambientes residenciais até locais que demandem maior sigilo e controle, conforme a evolução do projeto e disponibilidade de recursos.
 
 ---
 
