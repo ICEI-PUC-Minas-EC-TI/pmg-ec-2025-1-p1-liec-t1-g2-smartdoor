@@ -1,6 +1,4 @@
-# SMART DOOR - Protótipo de Fechadura Eletrônica com ESP32 (Código Arduino)
-
-**Desenvolvedor:** Gabriel Campos Amaral Ribeiro
+# SMART DOOR - Protótipo de Fechadura Eletrônica com ESP32
 
 ---
 
