@@ -30,21 +30,27 @@ O desenvolvimento do projeto foi dividido em etapas que contemplaram a criação
 
 #### Interface
 
-O aplicativo foi desenvolvido no MIT App Inventor, ferramenta visual para criação rápida de apps Android.
+O aplicativo foi desenvolvido no MIT App Inventor, uma plataforma visual que permite criar aplicativos Android de forma intuitiva, utilizando blocos de programação.
 
-Possui duas telas principais:
-- Tela de entrada, para configurações iniciais.
-- Tela de controle, onde o usuário envia comandos para abrir ou fechar a porta.
+O app possui duas telas principais:
+- Tela de entrada, usada para configurações iniciais;
+- Tela de controle, onde o usuário pode enviar comandos para abrir ou fechar a porta.
 
-O app apresenta um indicador de status que informa se a porta está aberta ou fechada, oferecendo feedback visual ao usuário.
+Há também um indicador visual no app que informa o status da porta (aberta ou fechada), proporcionando feedback imediato ao usuário.
 
 #### Código
 
-O código do app utiliza a biblioteca padrão Bluetooth Serial do MIT App Inventor.
+O código do aplicativo foi desenvolvido utilizando a programação em blocos do MIT App Inventor, que facilita a construção da lógica de comunicação sem a necessidade de escrever código textual.
 
-A comunicação é baseada no envio de comandos simples ('1' para abrir, '2' para fechar) e na recepção de status para atualizar o indicador.
+A comunicação entre o app e o ESP32 é feita via Bluetooth Serial padrão, enviando comandos simples:
+- `'1'` para abrir a porta;
+- `'2'` para fechar a porta.
 
-Não há autenticação, tratamento de erros ou reconexão automática implementados até o momento.
+O app também recebe mensagens do ESP32 para atualizar o indicador de status da porta, garantindo que o usuário esteja sempre informado.
+
+Por enquanto, o app não possui mecanismos avançados de autenticação, tratamento de erros ou reconexão automática, sendo uma versão inicial focada na funcionalidade básica.
+
+---
 
 ### Desenvolvimento do Hardware
 
@@ -72,11 +78,13 @@ O código está estruturado em funções e procedimentos para garantir organiza�
 
 O desenvolvimento do código foi mais simples do que o esperado.
 
+---
+
 ### Comunicação entre App e Hardware
 
 A comunicação entre o aplicativo Android e o ESP32 ocorre via Bluetooth Serial clássico.
 
-O app envia comandos de texto simples ('1' para abrir e '2' para fechar).
+O app envia comandos de texto simples (`'1'` para abrir e `'2'` para fechar).
 
 O ESP32 recebe os comandos, controla o servo, buzzer, LEDs e display, e envia de volta o status da porta para o app.
 
@@ -87,3 +95,4 @@ Não foram observadas instabilidades na comunicação durante os testes.
 O app atual para simulação é exclusivo para Android, desenvolvido no MIT App Inventor.
 
 ---
+
