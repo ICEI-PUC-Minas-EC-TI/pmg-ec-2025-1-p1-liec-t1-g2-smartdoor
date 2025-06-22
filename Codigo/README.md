@@ -72,7 +72,7 @@ O código é estruturado para facilitar entendimento e modificações, ideal par
 4. Monte o circuito conforme o diagrama de pinos definido acima.  
 5. Carregue o código na placa ESP32.  
 6. Para controlar via Bluetooth, use o app Android **Bluetooth Serial Terminal** e envie `'1'` para abrir e `'2'` para fechar.  
-7. O sensor capacitivo permite abrir a porta após 3 toques seguidos.  
+7. O sensor capacitivo permite abrir a porta após 3 toques seguidos com intervalo de 1.5s.  
 8. O botão físico pode ser usado para abrir a porta manualmente.  
 9. O display LCD indica status e mensagens para o usuário.  
 
