@@ -2,10 +2,10 @@
 
 
 
-`CAMPUS/UNIDADE`: PUC MINAS – Coração Eucarístico  
-`CURSO`: Engenharia da Computação  
-`SEMESTRE`: Primeiro período  
-`DISCIPLINA`: Laboratório de Introdução à Engenharia de Computação (LIEC)
+`PUC MINAS – Coração Eucarístico`
+`Engenharia da Computação`   
+`Primeiro período`  
+`Laboratório de Introdução à Engenharia de Computação (LIEC)`
 
 ## Integrantes
 
