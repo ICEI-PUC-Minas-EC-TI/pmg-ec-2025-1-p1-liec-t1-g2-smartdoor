@@ -4,7 +4,7 @@
 
 `PUC MINAS – Coração Eucarístico`
 
-`Engenharia da Computação`   \
+`Engenharia da Computação`   
 
 `Primeiro período`  
 
