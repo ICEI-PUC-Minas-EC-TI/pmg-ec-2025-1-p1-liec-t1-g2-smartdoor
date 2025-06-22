@@ -82,12 +82,12 @@ O código é estruturado para facilitar entendimento e modificações, ideal par
 
 - Este código é um protótipo educacional para simulação e aprendizado.  
 - Funciona bem para portas de quarto ou espaços com baixo nível de segurança.  
-- Para aplicações que demandem alta segurança, são necessárias melhorias de autenticação, criptografia e hardware mais robusto.  
+- Para aplicações que demandem alta segurança, são necessárias melhorias de autenticação, criptografia e hardware mais robusto, que serão implementadas ao longo do curso conforme formos adquirindo conhecimento.
 - O app **Bluetooth Serial Terminal** utilizado para controle Bluetooth funciona somente em Android.  
 
 ---
 
-## 📚 Referências e Agradecimentos
+## 📚 Referências
 
 Este projeto contou com o auxílio de:
 
@@ -97,6 +97,8 @@ Este projeto contou com o auxílio de:
 - **Stack Overflow** — solução de dúvidas técnicas e exemplos.  
   [https://stackoverflow.com](https://stackoverflow.com)  
 
+- **Documentação oficial Arduino** — referência para programação e uso da IDE.  
+  [https://www.arduino.cc/en/Reference/HomePage](https://www.arduino.cc/en/Reference/HomePage)
 ---
 
 Se precisar de ajuda ou quiser sugerir melhorias, fique à vontade para abrir issues ou pull requests no repositório!
