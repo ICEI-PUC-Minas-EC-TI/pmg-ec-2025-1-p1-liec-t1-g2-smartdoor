@@ -3,8 +3,11 @@
 
 
 `PUC MINAS – Coração Eucarístico`
-`Engenharia da Computação`   
+
+`Engenharia da Computação`   \
+
 `Primeiro período`  
+
 `Laboratório de Introdução à Engenharia de Computação (LIEC)`
 
 ## Integrantes
