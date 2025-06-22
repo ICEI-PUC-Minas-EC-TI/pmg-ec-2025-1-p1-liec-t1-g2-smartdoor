@@ -138,11 +138,9 @@ Este projeto é um **protótipo para fins educacionais e de simulação**.
 
 ---
 
-## 🙏 Agradecimentos
+Este projeto foi desenvolvido com o auxilio de:
 
-Este projeto foi desenvolvido com apoio de:
-
-- **ChatGPT (OpenAI)** — para tirar dúvidas e ajudar no desenvolvimento do código e documentação.  
+- **ChatGPT (OpenAI)** — para tirar dúvidas,propor ideias e ajudar em erros.  
   [https://chat.openai.com](https://chat.openai.com)
 
 - **Stack Overflow** — referência para soluções e dúvidas técnicas.  
@@ -150,17 +148,5 @@ Este projeto foi desenvolvido com apoio de:
 
 ---
 
-## 📞 Contato
 
-Gabriel Campos Amaral Ribeiro  
-[Seu E-mail ou LinkedIn]  
-
-Sinta-se à vontade para contribuir com sugestões, dúvidas ou melhorias.
-
----
-
-Obrigado por acompanhar este protótipo do **SMART DOOR**!  
-Este é um projeto em constante evolução para aprendizado e experimentação.
-
----
 
