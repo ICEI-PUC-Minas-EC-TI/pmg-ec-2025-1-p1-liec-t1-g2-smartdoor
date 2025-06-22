@@ -20,7 +20,8 @@ A seguir, são listadas sugestões de melhorias e funcionalidades que poderão s
 - ✅ Produção de uma **placa de circuito impresso (PCB)** personalizada para organização e robustez do circuito.
 - ✅ Integração com **assistentes virtuais** (como Alexa ou Google Home) para controle por comando de voz.
 - ✅ Monitoramento via **notificações por e-mail ou aplicativo** em caso de acesso negado ou tentativa suspeita.
-- ✅ Modularização e melhoria do código-fonte para permitir reuso e fácil manutenção.
+
+Essas melhorias serão desenvolvidas **progressivamente** pelo **Scrum Master (Gabriel Campos)**, ao longo dos próximos semestres, à medida que for adquirindo **mais conhecimento técnico**, experiência prática e **tempo disponível** para aprimorar o projeto.
 
 ---
 
