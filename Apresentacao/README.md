@@ -1,3 +1,5 @@
-# Apresentação da Solução
+### Apresentação da Solução
 
-Use esta pasta para salvar o vídeo demonstrando o funcionamento do projeto e as fotos para documentação do mesmo.
+Os vídeos demonstrando o funcionamento do projeto, assim como as fotos utilizadas na documentação, estão disponíveis na pasta:
+
+**`pmg-ec-2025-1-p1-liec-t1-g2-smartdoor/Apresentacao`**
