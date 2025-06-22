@@ -32,7 +32,7 @@ Este projeto é um **protótipo de sistema de controle de acesso inteligente**, 
 - 🔉 Buzzer ativo;  
 - 🔘 Botão físico (GPIO 15);  
 
-Ideal para **aplicações didáticas** ou **testes em ambientes com recursos limitados**, o projeto demonstra como **tecnologias acessíveis** podem ser aplicadas em soluções reais de **automação e segurança**.
+Este protótipo é voltado para fins didáticos e testes em ambientes simples ou com recursos limitados, demonstrando como tecnologias acessíveis podem ser integradas para simular soluções reais de automação e controle de acesso.
 
 ## Tecnologias usadas
 <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40" title="C++"/></code>
