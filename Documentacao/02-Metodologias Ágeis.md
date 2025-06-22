@@ -12,7 +12,7 @@ Com a consolidação da ideia, a metodologia foi adaptada para um modelo mais fl
 
 ### Divisão de Papéis
 
-- **Scrum Master:** Gabriel Campos — responsável pelo planejamento, organização do Trello, 100% do código do sistema, cerca de 80% da documentação, 50% do desenvolvimento do aplicativo e suporte geral.
+- **Scrum Master:** Gabriel Campos — responsável pelo planejamento, organização do Trello, 100% do código do sistema, cerca de 80% da documentação, 50% do desenvolvimento do aplicativo e suporte geral de todo o projeto.
 - **Desenvolvimento do Hardware:** Cláudio — contribuiu com cerca de 10% da montagem do hardware.
 - **Desenvolvimento do Aplicativo:** Lucas — responsável por cerca de 50% do desenvolvimento do aplicativo.
 
