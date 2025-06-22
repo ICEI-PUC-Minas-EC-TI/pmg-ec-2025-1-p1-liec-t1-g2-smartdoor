@@ -11,7 +11,7 @@
 
 * Claudio Francisco dos Santos Júnior;
 * Douglas Augusto Bomfim de Mello; 
-* Gabriel Campos Amaral Ribeiro;
+* Gabriel Campos Amaral Ribeiro(Scrum Master);
 * Samuel Filipe Lara Fernandes;
 * Lucas Emanuel Simão Silva;
 
