@@ -38,9 +38,9 @@ O app possui duas telas principais:
 
 #### Código
 
-O código do aplicativo foi desenvolvido utilizando a programação em blocos do MIT App Inventor, que facilita a construção da lógica de comunicação sem a necessidade de escrever código textual.
+O código do aplicativo foi desenvolvido utilizando a programação em blocos do MIT App Inventor, que facilita a construção da lógica de comunicação sem a necessidade de escrever código textual devido so uso da programação em blocos.
 
-A comunicação entre o app e o ESP32 é feita via Bluetooth Serial padrão, enviando comandos simples:
+A comunicação entre o app e o ESP32 é feita via Bluetooth Serial padrão, enviando comandos simples após o botão ser pressionado:
 - `'1'` para abrir a porta;
 - `'2'` para fechar a porta.
 
