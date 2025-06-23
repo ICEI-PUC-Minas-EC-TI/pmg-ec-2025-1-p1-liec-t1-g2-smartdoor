@@ -42,8 +42,6 @@ A comunicação entre o app e o ESP32 é feita via Bluetooth Serial padrão, env
 - `'1'` para abrir a porta;
 - `'2'` para fechar a porta.
 
-O app também recebe mensagens do ESP32 para atualizar o indicador de status da porta, garantindo que o usuário esteja sempre informado.
-
 Por enquanto, o app não possui mecanismos avançados de autenticação, tratamento de erros ou reconexão automática, sendo uma versão inicial focada na funcionalidade básica.
 
 ---
@@ -76,7 +74,6 @@ Por enquanto, o app não possui mecanismos avançados de autenticação, tratame
   - `'1'` para abrir a porta;
   - `'2'` para fechar a porta.
 - O ESP32 interpreta esses comandos e controla o servo motor, buzzer, LEDs e display LCD conforme o comando recebido.
-- O ESP32 também envia mensagens de status para o app, possibilitando a atualização do indicador visual do estado da porta.
 - O protocolo de comunicação é simples e direto, sem mecanismos avançados de segurança ou controle de erros.
 - Durante os testes, não foram observadas instabilidades na comunicação.
 - O app utilizado para simulação foi desenvolvido no MIT App Inventor e é exclusivo para dispositivos Android.
