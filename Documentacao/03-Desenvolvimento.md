@@ -18,8 +18,6 @@ Observações importantes:
 - O teclado original não foi utilizado, pois estava defeituoso e devido à limitação do número de portas do ESP32.
 - A trava elétrica não pôde ser usada junto com o relé por limitações de tensão.
 - A alimentação foi feita via USB do computador durante o desenvolvimento, com bateria como opção para uso externo.
-- A montagem poderia ser melhorada com uma placa de circuito impresso para melhorar organização e estética, já que a protoboard apresentou dificuldades na padronização dos fios e disponibilidade limitada de cabos.
-
 ---
 
 ## Desenvolvimento
