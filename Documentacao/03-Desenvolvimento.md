@@ -36,8 +36,6 @@ O app possui duas telas principais:
 - Tela de entrada, usada para configurações iniciais;
 - Tela de controle, onde o usuário pode enviar comandos para abrir ou fechar a porta.
 
-Há também um indicador visual no app que informa o status da porta (aberta ou fechada), proporcionando feedback imediato ao usuário.
-
 #### Código
 
 O código do aplicativo foi desenvolvido utilizando a programação em blocos do MIT App Inventor, que facilita a construção da lógica de comunicação sem a necessidade de escrever código textual.
