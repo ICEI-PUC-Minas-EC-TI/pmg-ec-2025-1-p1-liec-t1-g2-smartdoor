@@ -4,15 +4,16 @@
 
 Os materiais utilizados no projeto foram:
 
-- Placa ESP32 Dev Module como controlador principal.
-- Módulo RFID MFRC522 para leitura de cartões e chaveiros.
-- Servo motor SG90 para simular a trava da porta, substituindo a trava elétrica original.
-- Display LCD 16x2 com interface I2C para exibir mensagens ao usuário.
-- Sensor de toque capacitivo (ex: TTP223).
-- Buzzer piezoelétrico para alertas sonoros.
-- LEDs verde e vermelho para indicar o status da porta.
-- Botão físico para simular a saída manual.
-- Protoboard para montagem do circuito.
+- (1) Placa ESP32 Dev Module como controlador principal.
+- (1) Módulo RFID MFRC522 para leitura de cartões e chaveiros.
+- (1) Servo motor SG90 para simular a trava da porta, substituindo a trava elétrica original.
+- (1) Display LCD 16x2 com interface I2C para exibir mensagens ao usuário.
+- (1) Sensor de toque capacitivo (ex: TTP223).
+- (1) Buzzer piezoelétrico para alertas sonoros.
+- (2) LEDs verde e vermelho para indicar o status da porta.
+- (1) Botão físico para simular a saída manual.
+- (1) Protoboard para montagem do circuito.
+- (2) Resistores de 4.7kΩ 
 
 Observações importantes:
 - O teclado original não foi utilizado, pois estava defeituoso e devido à limitação do número de portas do ESP32.
