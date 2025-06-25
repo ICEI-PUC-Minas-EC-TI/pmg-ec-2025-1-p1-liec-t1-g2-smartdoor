@@ -44,7 +44,7 @@ Este projeto é um **protótipo educacional**, ideal para aprendizado prático e
 Ainda não está pronto para aplicações profissionais ou ambientes críticos. Para isso, serão necessários aprimoramentos em:
 
 - Segurança da autenticação (criptografia, senha, biometria).
-- Interface remota (web e mobile).
+- Interface remota (web e mobile (IOS e Android).
 - Armazenamento e gerenciamento de dados (banco de dados).
 - Robusteza física e confiabilidade do hardware.
 
