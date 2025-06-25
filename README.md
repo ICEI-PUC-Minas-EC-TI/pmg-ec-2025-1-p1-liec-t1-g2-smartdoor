@@ -21,6 +21,8 @@
 ## Orientador
 
 *  Marta Dias Moreira Noronha
+*  Sandro Jerônimo de Almeida
+*  Naisses Zóia Lima 
 
 ## Resumo
 
