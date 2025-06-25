@@ -1,0 +1,145 @@
+Manual de Operação – Protótipo SMART DOOR (Fechadura Eletrônica com ESP32)
+
+Pressupondo que o hardware já está montado e alimentado.
+
+1. Inicialização do Sistema
+
+Ligue a alimentação (via USB ou fonte 5V).
+
+No display LCD 16x2, aguarde a mensagem:
+SMART DOOR – Pronto
+
+O LED vermelho permanecerá aceso, indicando que a porta está fechada.
+
+2. Abertura da Porta
+
+Disponível por quatro métodos:
+
+2.1 Leitura de Cartão RFID
+
+Aproxime o cartão ou chaveiro RFID do leitor.
+
+O LCD mostrará:
+Lendo cartão...
+
+Se o cartão for autorizado:
+
+LCD exibe:
+Acesso Permitido
+Porta Aberta!
+
+O buzzer emite um beep curto.
+
+O LED verde acende.
+
+O servo motor gira para destravar a porta.
+
+Se não autorizado:
+
+LCD exibe:
+Acesso Negado
+
+Buzzer emite três beeps curtos.
+
+LED vermelho pisca três vezes.
+
+2.2 Sensor Capacitivo (Toque)
+
+Toque três vezes consecutivas no sensor, com intervalo máximo de 1,5 segundos entre toques.
+
+O LCD pode mostrar a sequência:
+Toque 1 Toque 2 Toque 3
+
+Após o terceiro toque, o sistema realiza o mesmo procedimento de abertura do item 2.1 (beep curto, LED verde, "Porta Aberta!").
+
+2.3 Comando Bluetooth Serial
+
+Emparelhe o smartphone via aplicativo “Bluetooth Serial Terminal”.
+
+Envie o caractere '1'.
+
+O LCD exibirá:
+Comando BT: Abrir
+Porta Aberta!
+
+O LED verde acende e o buzzer emite um beep curto.
+
+2.4 Botão Físico de Saída (Interno)
+
+Pressione o botão conectado ao GPIO 15.
+
+Executa o mesmo fluxo de abertura para permitir saída interna rápida.
+
+3. Fechamento da Porta
+
+3.1 Fechamento Manual via Bluetooth
+
+Envie o caractere '2' pelo aplicativo Bluetooth.
+
+O LCD exibirá:
+Comando BT: Fechar
+Porta Fechada!
+
+O buzzer emitirá um beep longo.
+
+O LED vermelho acenderá.
+
+O servo retornará para posição de fechamento.
+
+3.2 Fechamento Manual pelo Botão (Interno)
+
+Pressione novamente o botão de saída.
+
+O LCD exibirá:
+Porta Fechada!
+
+Buzzer e LED vermelho seguem o mesmo padrão do fechamento manual via Bluetooth.
+
+3.3 Fechamento Automático
+
+Após o tempo definido (exemplo: 5 segundos), o sistema avisa e inicia a contagem:
+Fechando em 3...
+Fechando em 2...
+Fechando em 1...
+
+Durante a contagem:
+
+O buzzer emite dois beeps curtos.
+
+O LED vermelho pisca.
+
+Após a contagem, o servo fecha a porta, o LED vermelho permanece aceso e o LCD exibe “Porta Fechada!”.
+
+Nota: O tempo de fechamento automático pode ser ajustado no código-fonte pela variável TEMPO_FECHAMENTO_MS.
+
+4. Indicadores Visuais e Sonoros
+
+Evento	LCD	Buzzer	LED
+Sistema pronto	SMART DOOR – Pronto	-	Vermelho estático
+Acesso autorizado	Porta Aberta!	1 beep curto	Verde estático
+Acesso negado	Acesso Negado	3 beeps curtos	Vermelho pisca
+Comando BT recebido (abrir/fechar)	Comando BT: Abrir/Fechar	1 beep (longo para fechar)	Verde ou Vermelho
+Aviso de fechamento automática	Contagem regressiva (3–1)	2 beeps curtos	Vermelho pisca
+
+5. Dicas de Uso
+
+Mantenha o cartão RFID a até 2 cm do leitor para melhor reconhecimento.
+
+Toque o sensor capacitivo com a ponta do dedo, sem luvas ou barreiras.
+
+Certifique-se de que o Bluetooth está pareado antes de enviar comandos.
+
+Use o botão interno para abertura rápida ao sair por dentro, sem depender do cartão ou do app.
+
+6. Solução de Problemas
+
+Cartão RFID não reconhecido: verifique a alimentação de 3,3 V do módulo RFID e as conexões MOSI, MISO, SCK, SS e RST.
+
+Toques no sensor não reconhecidos: confira o aterramento (GND) e evite interferências próximas.
+
+Bluetooth não conecta: refaça o pareamento no smartphone e reinicie o módulo ESP32.
+
+Servo trava ou faz ruído: forneça alimentação externa de 5 V com corrente mínima de 1 A.
+
+Pronto! Com este manual, você pode operar seu protótipo SMART DOOR. Para dúvidas, consulte o código-fonte ou entre em contato com a equipe de desenvolvimento.
+
