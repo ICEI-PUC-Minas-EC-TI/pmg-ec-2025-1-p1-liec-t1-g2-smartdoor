@@ -38,4 +38,4 @@ As ferramentas utilizadas no projeto foram:
 - Trello (organização e gerenciamento das tarefas via Kanban);
 - WhatsApp (comunicação entre os membros da equipe);
 - Markdown (.md) para documentação;
-- Bluetooth Serial Terminal (app Android para teste do controle via Bluetooth).
+- MIT App Inventor (app Android para teste do controle via Bluetooth).
