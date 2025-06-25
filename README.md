@@ -46,7 +46,7 @@ Este protótipo é voltado para fins didáticos e testes em ambientes simples ou
 
 # Código (do arduino ou esp32)
 
-<li><a href="Codigo/README.md"> Código Fonte (.ino)</a></li>
+<li><a href="Codigo/arduino.ino"> Código Fonte (.ino)</a></li>
 
 # Aplicativo para Smartphone
 
