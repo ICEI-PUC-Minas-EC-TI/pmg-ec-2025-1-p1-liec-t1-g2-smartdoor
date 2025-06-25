@@ -16,7 +16,7 @@ Os materiais utilizados no projeto foram:
 - (2) Resistores de 4.7kΩ 
 
 Observações importantes:
-- O teclado original não foi utilizado, pois estava defeituoso e devido à limitação do número de portas do ESP32.
+- O teclado da ideia original não foi utilizado, pois estava defeituoso e devido à limitação do número de portas do ESP32.
 - A trava elétrica não pôde ser usada junto com o relé por limitações de tensão.
 - A alimentação foi feita via USB do computador durante o desenvolvimento, com bateria como opção para uso externo.
 ---
