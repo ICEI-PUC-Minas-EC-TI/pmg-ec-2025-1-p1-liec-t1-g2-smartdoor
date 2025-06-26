@@ -16,7 +16,7 @@ Com a consolidação da ideia, a metodologia foi adaptada para um modelo mais fl
 - **Desenvolvimento do Hardware:** Cláudio — contribuiu com cerca de 10% da montagem do hardware.
 - **Desenvolvimento do Aplicativo:** Lucas — responsável por cerca de 70% do desenvolvimento do aplicativo.
 - **Desenvolvimento do Manual App e Apoio Geral:** Samuel.
-- **Desenvolvimento do Manual de Utilização Geral e Apoio Geral:** - Douglas.
+- **Desenvolvimento do Manual de Utilização Geral e Apoio Geral:** Douglas.
 
 As apresentações dos protótipos foram conduzidas por Gabriel Campos (Scrum Master) e, na sua ausência, pelos outros integrantes do grupo envolvidos nas respectivas tarefas.
 
